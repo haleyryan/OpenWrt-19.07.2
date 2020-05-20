@@ -10,6 +10,7 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+sed -i 's/OpenWrt/RyanOS/g' feeds.conf.default
 
 # Lienol/openwrt-package
 sed -i '$a src-git lienol https://github.com/Lancenas/lienol-openwrt-package.git' feeds.conf.default
